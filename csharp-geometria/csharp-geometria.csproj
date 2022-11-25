@@ -8,4 +8,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="reusable-csharp-files">
+      <HintPath>..\..\reusable-csharp-files\bin\Release\net6.0\reusable-csharp-files.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

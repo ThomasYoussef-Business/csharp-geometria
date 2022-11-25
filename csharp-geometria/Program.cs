@@ -2,7 +2,7 @@
  * [x] Creare una classe Rettangolo con due attributi interi: baseRettangolo e altezzaRettangolo.
  *  Aggiungere due metodi: calcolaArea e calcolaPerimetro checalcolano e restituiscono, rispettivamente, l’area e il perimetro del rettangolo.
  * 
- * [] Poi, nel vostro programma principale (Program.cs) chiedete all’utente di inserire, da console,
+ * [x] Poi, nel vostro programma principale (Program.cs) chiedete all’utente di inserire, da console,
  *  i valori di base e di altezza con cui istanziare un nuovoRettangolo. Dopo averlo istanziato,
  *  occupatevi di configurare le sue proprietà di base e altezza (come abbiamo fatto con le nostre auto questa mattina nelprogramma principale)
  *  e stampate a video il perimetro e l’area.
@@ -17,3 +17,12 @@
  *      Area: 200 cm2
  */
 
+using Utilities;
+using csharp_geometria;
+
+
+int width = Input.InputInteger("Inserisci la base del rettangolo: "),
+    height = Input.InputInteger("Inserisci l'altezza del rettangolo: ");
+
+Rectangle rettangolo = new Rectangle(width, height);
+Console.WriteLine($"L'area del tuo rettangolo è {rettangolo.Area()}, mentre il perimetro è {rettangolo.Perimeter()}");
