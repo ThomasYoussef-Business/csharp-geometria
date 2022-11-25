@@ -1,5 +1,5 @@
 ﻿/*
- * [] Creare una classe Rettangolo con due attributi interi: baseRettangolo e altezzaRettangolo.
+ * [x] Creare una classe Rettangolo con due attributi interi: baseRettangolo e altezzaRettangolo.
  *  Aggiungere due metodi: calcolaArea e calcolaPerimetro checalcolano e restituiscono, rispettivamente, l’area e il perimetro del rettangolo.
  * 
  * [] Poi, nel vostro programma principale (Program.cs) chiedete all’utente di inserire, da console,
@@ -16,3 +16,4 @@
  *      Perimetro: 60 cm
  *      Area: 200 cm2
  */
+
