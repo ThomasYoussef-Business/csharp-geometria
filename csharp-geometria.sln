@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-geometria", "csharp-geometria\csharp-geometria.csproj", "{9C9D53B5-588D-455E-9EC2-10D440EAFDBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp-geometria", "csharp-geometria\csharp-geometria.csproj", "{9C9D53B5-588D-455E-9EC2-10D440EAFDBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bonus", "bonus\bonus.csproj", "{B34D8AD8-4589-4DD0-B08D-BD64A01DC1EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9C9D53B5-588D-455E-9EC2-10D440EAFDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C9D53B5-588D-455E-9EC2-10D440EAFDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C9D53B5-588D-455E-9EC2-10D440EAFDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34D8AD8-4589-4DD0-B08D-BD64A01DC1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34D8AD8-4589-4DD0-B08D-BD64A01DC1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34D8AD8-4589-4DD0-B08D-BD64A01DC1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34D8AD8-4589-4DD0-B08D-BD64A01DC1EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

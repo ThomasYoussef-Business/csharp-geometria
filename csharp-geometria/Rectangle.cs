@@ -1,5 +1,5 @@
 ﻿namespace csharp_geometria {
-    internal class Rectangle {
+    public class Rectangle {
         public int width, height;
         public string? name;
         public Rectangle(int width, int height, string? name = null) {
@@ -10,7 +10,7 @@
 
         public int Area() => width * height;
         public int Perimeter() => width * 2 + height * 2;
-        public void PrintRectangle() {
+        public virtual void PrintRectangle() {
             Console.WriteLine($"-- {name ?? "Rectangle"} --{Environment.NewLine}" + $"Width: {width} cm{Environment.NewLine}" + $"Height: {height} cm{Environment.NewLine}" + $"Area: {Area()} cm²{Environment.NewLine}" + $"Perimeter: {Perimeter()} cm{Environment.NewLine}" + $"");
         }
     }
