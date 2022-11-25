@@ -7,7 +7,7 @@
  *  occupatevi di configurare le sue proprietà di base e altezza (come abbiamo fatto con le nostre auto questa mattina nelprogramma principale)
  *  e stampate a video il perimetro e l’area.
  * 
- * [] Provate ad istanziare tanti rettangoli con nome diverso e attributi diversi
+ * [x] Provate ad istanziare tanti rettangoli con nome diverso e attributi diversi
  *  (baseRettangolo e altezzaRettangolo) e provate a stampare le loro proprietà adesempio con un metodo
  *  StampaRettangolo che vi stampi il vostro rettangolo ad esempio cosi:
  *      —— Rettangolo1 ——
@@ -26,3 +26,4 @@ int width = Input.InputInteger("Inserisci la base del rettangolo: "),
 
 Rectangle rettangolo = new Rectangle(width, height);
 Console.WriteLine($"L'area del tuo rettangolo è {rettangolo.Area()}, mentre il perimetro è {rettangolo.Perimeter()}");
+rettangolo.PrintRectangle();
